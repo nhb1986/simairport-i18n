@@ -185,104 +185,104 @@ Permanent sletning af den vælgte fil! Er du SIKKER på at du vil slette dette g
                 <step9>Færdig</step9>
                 <step10>Validerer Mod...</step10>
                 <desc0>Vent venligst mens vi gemmer spillet, uploader det på Steam, og offentliggører den på SimAirport Workshop!</desc0>
-                <desc1>Din indhold er nu opdateret.</desc1>
-                <desc2>Please wait while process &amp; upload your mod to Steam -- and Publish it on the SimAirport Workshop!</desc2>
-                <desc3>Your item is now published to the workshop.</desc3>
+                <desc1>Dit indhold er nu opdateret.</desc1>
+                <desc2>Vent venligst mens din mod bliver forarbejdet &amp; uploaded på Steam -- og offentliggjort på SimAirport Workshop!</desc2>
+                <desc3>Dit indhold er nu offentliggjort på workshoppen.</desc3>
                 <tt>
-                    <title>Terms of Service</title>
-                    <desc0>You MUST click through and accept the the Terms of Service for the Steam Workshop before you will be able to share your saves publicly!</desc0>
+                    <title>Servicevilkår</title>
+                    <desc0>Du SKAL læse og acceptere Servicevilkårene for Steams Workshop før du kan dele dine gemte spil offentligt!</desc0>
                 </tt>
             </steam>
             <airports>
-                <title>Shared Airports</title>
-                <publish>Publish to Workshop</publish>
-                <browse>Browse Workshop</browse>
+                <title>Delte lufthavne</title>
+                <publish>Offentliggøre på Workshop</publish>
+                <browse>Gennemse Workshop</browse>
             </airports>
             <airlines>
-                <title>Custom Airline Mods</title>
-                <create>Create Airline</create>
-                <browse>Browse Folder</browse>
-                <import>Import into Game</import>
-                <reimport>Re-Import from Disk</reimport>
+                <title>Brugerdefinerede flyselskab Mods</title>
+                <create>Opret ny flyselskab</create>
+                <browse>Gennemse folder</browse>
+                <import>Importer til spillet</import>
+                <reimport>Importer igen fra disk</reimport>
                 <upload>Upload</upload>
-                <view>View</view>
-                <update>Update</update>
-                <edit>Edit In-Game</edit>
-                <open>Open Folder</open>
+                <view>Vis</view>
+                <update>Opdater</update>
+                <edit>Redigere i spillet</edit>
+                <open>Åbn folder</open>
                 <demo>Demo Spawn</demo>
-                <refresh>Refresh</refresh>
-                <none>None Selected</none>
-                <fleetcount>{0} Aircraft Types in Fleet</fleetcount>
-                <path>Path</path>
-                <status>Current Game Status</status>
-                <notimported>Not Imported</notimported>
-                <art>Has Custom Art</art>
-                <noart>Default Art</noart>
+                <refresh>Opdater</refresh>
+                <none>Ingen valgt</none>
+                <fleetcount>{0} Fly typer in flåden</fleetcount>
+                <path>Sti</path>
+                <status>Spil status</status>
+                <notimported>Ikke importeret</notimported>
+                <art>Har Brugerdefineret tekstur</art>
+                <noart>Standard tekstur</noart>
             </airlines>
             <aircraft>
-                <title>Custom Aircraft Mods</title>
-                <create>Create Aircraft</create>
-                <validart>Valid Default Art</validart>
-                <invalidart>Default Art Missing</invalidart>
-                <missing>Missing {0}</missing>
-                <found>Found {0}</found>
-                <k_CustomArt>Custom Art</k_CustomArt>
-                <k_DisplayName>Display Name</k_DisplayName>
-                <k_ShortName>Short Name</k_ShortName>
-                <k_PaxCapacity>Pax Capacity</k_PaxCapacity>
-                <k_MinRunway>Min Runway</k_MinRunway>
+                <title>Brugerdefinerede fly Mods</title>
+                <create>Opret nyt fly</create>
+                <validart>Gyldig standard tekstur</validart>
+                <invalidart>Standard tekstur mangler</invalidart>
+                <missing>Mangler {0}</missing>
+                <found>Fandt {0}</found>
+                <k_CustomArt>Brugerdefineret tekstur</k_CustomArt>
+                <k_DisplayName>Vist navn</k_DisplayName>
+                <k_ShortName>Kort navn</k_ShortName>
+                <k_PaxCapacity>Pax kapacitet</k_PaxCapacity>
+                <k_MinRunway>Min landingsbane</k_MinRunway>
                 <k_MinGate>Min Gate</k_MinGate>
-                <airlinecount>AIRLINES with Aircraft</airlinecount>
-                <ingame>Is In Current Game</ingame>
-                <nogame>Not In Current Game</nogame>
-                <steam0>Steam Status</steam0>
-                <steam1>Service Unavailable</steam1>
-                <isPublished>Published on Steam</isPublished>
-                <isOwned>Owned By You</isOwned>
-                <isSubscribed>Subscribed</isSubscribed>
-                <isCurrent>Up-to-date</isCurrent>
-                <isUpdated>Updated Local</isUpdated>
+                <airlinecount>FLYSELSKABER med fly</airlinecount>
+                <ingame>Importeret til spillet</ingame>
+                <nogame>Ikke importert til spillet</nogame>
+                <steam0>Steam status</steam0>
+                <steam1>Service er ikke tilgængelig</steam1>
+                <isPublished>Offentliggjort på Steam</isPublished>
+                <isOwned>Ejet af dig</isOwned>
+                <isSubscribed>Abonneret</isSubscribed>
+                <isCurrent>Opdateret</isCurrent>
+                <isUpdated>Opdateret lokalt</isUpdated>
                 <edit>
-                    <title0>Primary Data Settings</title0>
-                    <title1>Aircraft Positions / Reference Points</title1>
-                    <config>Config Path</config>
-                    <image>Image Path</image>
-                    <fc0># Pilots</fc0>
-                    <fc1># Flight Attendants</fc1>
-                    <fuel>Fuel Capacity</fuel>
-                    <crewchange>Crew Change %</crewchange>
-                    <center>Center</center>
+                    <title0>Primær data opsætning</title0>
+                    <title1>Fly positioner / reference punkter</title1>
+                    <config>Konfigurerings sti</config>
+                    <image>Textur sti</image>
+                    <fc0># piloter</fc0>
+                    <fc1># stewardesser</fc1>
+                    <fuel>brændstofkapacitet</fuel>
+                    <crewchange>besætningsændring %</crewchange>
+                    <center>Midt</center>
                     <side>Side</side>
-                    <nl>Nav Left</nl>
-                    <nr>Nav Right</nr>
-                    <strobe0>Strobe</strobe0>
-                    <strobe1>Strobe Size</strobe1>
-                    <headlight0>Headlight</headlight0>
-                    <headlight1>Headlight Size</headlight1>
-                    <width>Width</width>
-                    <height>Height</height>
+                    <nl>Nav venstre</nl>
+                    <nr>Nav højre</nr>
+                    <strobe0>Strobelys</strobe0>
+                    <strobe1>Strobelys størrelse</strobe1>
+                    <headlight0>Forlygte</headlight0>
+                    <headlight1>Forlygte størrelse</headlight1>
+                    <width>Bredde</width>
+                    <height>Vidde</height>
                 </edit>
             </aircraft>
             <tt0>
-                <title>Unauthorized</title>
-                <desc0>You may only update or publish mods that you are the original owner/author of.</desc0>
+                <title>Ikke autoriseret</title>
+                <desc0>Du må kun opdatere eller offentliggøre Mods du selv er den oprindelige ejer/ophaver af.</desc0>
             </tt0>
             <tt1>
 
-                <desc0>This mod requires other mods (custom Aircraft) to function properly. Those other mods that it requires MUST be uploaded to Steam before this mod can be uploaded.</desc0>
-                <desc1>This mod requires custom art before it can be uploaded to the Steam Workshop.</desc1>
-                <desc2>Mods can only be uploaded to the Steam Workshop if they contain customized art.</desc2>
+                <desc0>Denne Mod kræver andre Mods (brugerdefinerede fly) for at fungere korrekt. Disse andre Mods SKAL være uploaded på Steam før denne Mod kan blive uploaded.</desc0>
+                <desc1>Denn Mod kræver brugerdefinerede texturer før den kan blive uploaded på Steam Workshop.</desc1>
+                <desc2>Mods kan kun blive uploaded på Steam Workshop hvis de har brugerdefinerede teksturer.</desc2>
             </tt1>
             <tt2>
-                <title>Cannot Demo Spawn</title>
-                <desc0>This feature requires using the "Mod Test Map" (see left panel to load it). The demo must take place on a suitable &amp; functional gate in an airport without any passengers or other aircraft.</desc0>
+                <title>Demo Spawn ikke muligt</title>
+                <desc0>Denne funktion kræver brug af "Mod Test Map" (indlæs fra venstre panel). Demoen skal køres på en egnet &amp; fungerende gate i en lufthavn uden passagerer og andre fly.</desc0>
             </tt2>
-            <tt3>Create a new Aircraft mod, which allows you to create an entirely new Type of aircraft.  You can then include this Aircraft in any of your custom Airline fleets &amp; share it on the Steam Workshop.</tt3>
-            <tt4>Refresh the listing of available Aircraft mods found on your computer.</tt4>
-            <tt5>Opens the mod folder location in your computer's file browser program.</tt5>
-            <tt6>Create a new Airline mod using the default templates;  you can then edit the settings and graphics using 3rd party programs.</tt6>
-            <tt7>Refresh the above listing of available Airline mods found on your computer.</tt7>
-            <tt8>Already playing Mod Test Map!</tt8>
+            <tt3>Opret en ny fly Mod, som tillader tilføjelsen af helt nye fly modeller.  Du kan tilføje dette fly i alle dine brugerdefinerede flyselskaber &amp; dele den på Steam Workshop.</tt3>
+            <tt4>Opdater listen af existerende fly Mods på din computer.</tt4>
+            <tt5>Åbner Mod folderen på din computer.</tt5>
+            <tt6>Opret et nyt flyselskab ved at bruge standard skabeloner; du kan redigere opsætningen og teksturen ved hjælp af tredjepart programmer.</tt6>
+            <tt7>Opdater listen af existerende flyselskab Mods på din computer.</tt7>
+            <tt8>Mod Test Map er allerede indlæst!</tt8>
         </mods>
         <staff>
             <title>Staff</title>
