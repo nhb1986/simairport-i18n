@@ -1,191 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
 <UI>
-    <currency>$</currency>
-    
+    <currency>DKK</currency>
+
     <!-- Top left buttons -->
-    <btn_help>Help</btn_help>
-    <btn_menu>Menu</btn_menu>
-    <LoadingBar>Loading...</LoadingBar>
-    
+    <btn_help>Hjælp</btn_help>
+    <btn_menu>Meny</btn_menu>
+    <LoadingBar>Lader...</LoadingBar>
+
     <i18n>
-        <en>English</en>
-        <de>German</de>
-        <nl>Dutch</nl>
-        <fr>French</fr>
-        <zh>Chinese Simplified</zh>
-        <ru>Russian</ru>
+        <en>Engelsk</en>
+        <de>Tysk</de>
+        <nl>Hollandsk</nl>
+        <fr>Fransk</fr>
+        <zh>Kinesisk (Simplified)</zh>
+        <ru>Russisk</ru>
     </i18n>
-    
+
     <modal>
         <EADialog>
-            <btn_forums>Discussion Forums</btn_forums>
-            <btn_report>Report a Bug</btn_report>
+            <btn_forums>Diskussion Forum</btn_forums>
+            <btn_report>Rapporter en Bug</btn_report>
             <btn_steam>Steam Workshop</btn_steam>
-            <text>Welcome to SimAirport Early Access! We hope you're enjoying the game so far.  We  encourage you to visit the forums, be active &amp; participate in the community, and really take an active role in the development process alongside the developers.
-        
-Thank you for your support and thank you for helping us make SimAirport into the best tycoon-style management game ever created!</text>
+            <text>Velkommen til SimAirport Early Access! Vi håber du kan lide spillet. Vi håber du besøger vores forum, deltager aktivt på siden, og spiller en aktiv rolle i udviklingsprocessen - sammen med udviklerne.
+
+Tak for din støtte og tak for at hjælpe os med at gøre SimAirport til det bedste Tycoon-agtige management spil nogensinde!</text>
         </EADialog>
         <mainmenu>
-            <sharingbtn>Airport Sharing</sharingbtn>
+            <sharingbtn>Lufthavn Deling</sharingbtn>
             <modsbtn>Mods</modsbtn>
-            <optionsbtn>Options</optionsbtn>
-            <exitbtn>Exit SimAirport</exitbtn>
-            <copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
-SimAirport is a trademark of LVGameDev LLC.</copyright>
+            <optionsbtn>Optioner</optionsbtn>
+            <exitbtn>Afslut SimAirport</exitbtn>
+            <copyright>Ophavsret 2018, LVGameDev LLC.  Alle rettigheder forbeholdes.
+SimAirport er et varemærke af LVGameDev LLC.</copyright>
         </mainmenu>
         <game>
             <new>
-                <title>Start New Game</title>
+                <title>Start nyt spil</title>
                 <mode>
-                    <title>Game Mode</title>
-                    <mode0>Sandbox Mode</mode0>
-                    <mode1>Career Mode</mode1>
+                    <title>Spiltype</title>
+                    <mode0>Sandkasse Spiltype</mode0>
+                    <mode1>Karriere Spiltype</mode1>
                     <tt>
-                        <desc0>Choose Your Play Style</desc0>
-                        <desc1>Use your skills, try to turn a profit!</desc1>
-                        <desc2>Cannot spend money when you have a negative balance</desc2>
-                        <desc3>Bankrupt and game over if you have negative balance for 48 hours</desc3>
-                        <desc4>Must begin on a Medium size map</desc4>
-                        <desc5>Unlimited funds, no bankruptcy!</desc5>
-                        <desc6>Money IS still tracked</desc6>
-                        <desc7>Can continue spending, even with negative balance</desc7>
-                        <desc8>Game never ends due to bankruptcy</desc8>
+                        <desc0>Vælg din Spiltype</desc0>
+                        <desc1>Brug dine færdigheder og prøv at tjene penge!</desc1>
+                        <desc2>Du kan ikke bruge penge når din konto er i overtræk</desc2>
+                        <desc3>Du går bankerot og det er Game Over hvis du er i overtræk for 48 timer</desc3>
+                        <desc4>Du starter på et kort med mellem størelse</desc4>
+                        <desc5>Du har ubegrænset penge - og kan ikke gå bankerot!</desc5>
+                        <desc6>Penge ER dog stadig beregnet</desc6>
+                        <desc7>Du kan stadig bruge penge hvis din konto er i overtræk</desc7>
+                        <desc8>Spillet fortsætter altid selvom du normalt ville gå bankerot</desc8>
                     </tt>
                 </mode>
                 <size>
-                    <title>Map Size</title>
+                    <title>Kort størelse</title>
                     <tt0>
-                        <desc0>When playing in Career Mode you will start on a {0} map ({1}x{2}). You can expand and purchase more land, to accommodate your ever-growing airport!</desc0>
+                        <desc0>Når du spiller i Karriere Spiltypen, starter du på et {0} kort ({1}x{2}). Du kan udvide kortet ved at købe mere land, så der altid er plads til din konstant voksende lufthavn!</desc0>
                     </tt0>
                     <tt1>
-                        <desc0>When playing in Sandbox Mode, you may choose which size map you want to start with.  You can still purchase additional Land to expand later, too, but this determines your starting map size.  Note that property taxes are a bit higher on larger plots of land!</desc0>
+                        <desc0>Når du spiller i Sandkasse Spiltypen, kan du vælge hvilken kortstørelse du vil starte med. Du kan dog stadig købe mere land for at udvide endnu mere. Her gælder det kun størrelsen ved start.  Husk at ejendomsskatten er højere på større grunde!</desc0>
                     </tt1>
                 </size>
                 <difficulty>
-                    <title>Difficulty</title>
-                    <option0>Normal</option0>
-                    <option1>Easy</option1>
+                    <title>Udfordring</title>
+                    <option0>Normalt</option0>
+                    <option1>Nemt</option1>
                 </difficulty>
                 <tutorial>Tutorial</tutorial>
                 <blank>
-                    <title>Start from Scratch</title>
+                    <title>Start med en tom grund</title>
                     <tt>
-                        <desc>Starting from scratch will begin with an empty plot of land but requires more time to get your airport up &amp; running. If you're a new player, we recommend leaving this off to get started playing SimAirport right away with our built-in starter airport layout.</desc>
+                        <desc>Når du starter med en tom grund, kan du bestemme nøjagtig hvordan din lille start lufthavn ser ud. Men det tager en del længere tid for at få lufthavnen til at køre ordentligt. Hvis du er en ny spiller vil vi anbefale at du prøver først at komme i gang med vores indbyggede starter lufthavn som er klar til at modtage fly fra start.</desc>
                     </tt>
                 </blank>
             </new>
             <save>
-                <title>Save Game</title>
-                <save>Save</save>
-                <browse>Browse Saves Folder</browse>
-                <as>Save As...</as>
+                <title>Gem spil</title>
+                <save>Gem</save>
+                <browse>Gennemse gemte spil mappen</browse>
+                <as>Gem som...</as>
                 <step1>
-                    <title>Saving...</title>
-                    <desc>Just a moment while we save your game...</desc>
+                    <title>Gemmer...</title>
+                    <desc>Lige et øjeblik mens spillet bliver gemt...</desc>
                 </step1>
                 <step2>
-                    <title>Saved!</title>
-                    <desc>Your game has been saved successfully.</desc>
+                    <title>Færdig!</title>
+                    <desc>Dit spil er nu gemt.</desc>
                 </step2>
-                <edgeBranchNotice>As a precautionary measure, file overwrite is prohibited on Edge releases of SimAirport. Please choose a unique name each time you save your game.</edgeBranchNotice>
-                <overwrite>Overwrite Existing Save Game?</overwrite>
-                <search>Displaying {0} of {1} saved games that match "{2}".
-To view all existing save files, clear the filename in the input field above.</search>
+                <edgeBranchNotice>Det er ikke muligt at skrive over eksisterende filer på Edge releases af SimAirport som sikkerhedsmekanisme. Venligst vælg et unikt navn hver gang du gemmer spillet.</edgeBranchNotice>
+                <overwrite>Skrive over den eksisterende fil?</overwrite>
+                <search>Viser {0} af {1} gemte filer som matcher "{2}".
+For at se alle eksisterende filer, slet filnavnet i indastningsboxen foroven.</search>
             </save>
             <load>
-                <title>Load Game</title>
-                <load>Load Selected Game</load>
-                <preview>Saved Game Preview</preview>
+                <title>Indlæse spil</title>
+                <load>Indlæs det vælgte spil</load>
+                <preview>Gemt spil Preview</preview>
                 <delete>
-                    <title>Delete File</title>
-                    <desc>CAUTION!
+                    <title>Slet fil</title>
+                    <desc>OBS!
 
-This will permanently delete the selected game from your computer. Are you SURE you want to delete this save?</desc>
+Permanent sletning af den vælgte fil! Er du SIKKER på at du vil slette dette gemte spil?</desc>
                 </delete>
             </load>
         </game>
         <options>
-            <title>Options &amp; Settings</title>
+            <title>Optioner &amp; Indstillinger</title>
             <graphics>
-                <title>Graphics Settings</title>
-                <weather>Weather Visual Effects</weather>
-                <daynightcycle>Night/Day Cycle Visuals</daynightcycle>
-                <shadowsAO>Shadows and AO</shadowsAO>
-                <fullscreen>Full Screen Mode</fullscreen>
-                <resolution>Resolution</resolution>
-                <quality>Quality</quality>
-                <scale>UI Scale</scale>
-                <reschange0>Confirm Changes</reschange0>
-                <reschange1>Keep these settings?</reschange1>
-                <reschange2>Will Revert in {0} seconds...</reschange2>
+                <title>Grafiske Indstillinger</title>
+                <weather>Vejr - visuelle effekter</weather>
+                <daynightcycle>Dag/Nat cyklus vises</daynightcycle>
+                <shadowsAO>Skygger og AO</shadowsAO>
+                <fullscreen>Fuld Skærm</fullscreen>
+                <resolution>Opløsning</resolution>
+                <quality>Kvalitet</quality>
+                <scale>UI skala</scale>
+                <reschange0>Bekræfte ændringer</reschange0>
+                <reschange1>Gem disse indstillinger?</reschange1>
+                <reschange2>Vender tilbage om {0} sekunder...</reschange2>
             </graphics>
             <camera>
-                <title>Camera (Zoom/Pan)</title>
-                <edgescroll>Edge Hover Scrolling</edgescroll>
-                <zoomcentering>Zoom Centering</zoomcentering>
-                <cameracenter>Camera Center</cameracenter>
-                <mouseposition>Mouse Position</mouseposition>
-                <mousepan>Middle Mouse Pan</mousepan>
-                <zoomspeed>Zoom Speed</zoomspeed>
-                <panspeed>Pan Speed</panspeed>
+                <title>Kamera (Zoom/Rulle)</title>
+                <edgescroll>Rulning på kanten</edgescroll>
+                <zoomcentering>Zoom centrering</zoomcentering>
+                <cameracenter>Kamera centrering</cameracenter>
+                <mouseposition>Mus Position</mouseposition>
+                <mousepan>Rulning på midterste mus knap</mousepan>
+                <zoomspeed>Zoom hastighed</zoomspeed>
+                <panspeed>Rulle hastighed</panspeed>
             </camera>
             <autosave>
-                <title>Auto-save</title>
+                <title>Automatisk gemning</title>
             </autosave>
             <sound>
-                <title>Sound</title>
-                <game>Game Volume</game>
-                <crowd>Crowd Volume</crowd>
+                <title>Lyd</title>
+                <game>Spil lydstyrke</game>
+                <crowd>Menneskemængde lydstyrke</crowd>
             </sound>
             <gameplay>
-                <title>Gameplay</title>
-                <timeformat>Clock/Time Display</timeformat>
-                <timeformat0>{0}-Hour ({1})</timeformat0>
-                <language>Language</language>
-                <language2>For best results, please restart SimAirport after changing language.</language2>
-                <zoneoverlays>Zone Overlays</zoneoverlays>
-                <autofocusbuildmenus>Build Menus: Search Auto-Focus</autofocusbuildmenus>
-                <holiday>Holiday Visuals</holiday>
-                <reset>Reset ALL Window Positions</reset>
-                <resetbtn>Reset All Positions</resetbtn>
+                <title>Spil</title>
+                <timeformat>Ur/Tid visning</timeformat>
+                <timeformat0>{0}-timer ({1})</timeformat0>
+                <language>Sprog</language>
+                <language2>For bedste resultater, venligst genstarte SimAirport efter du skifter sprog.</language2>
+                <zoneoverlays>Zone lag</zoneoverlays>
+                <autofocusbuildmenus>Bygge Menu: Auto-Fokus på søgning</autofocusbuildmenus>
+                <holiday>Julepynt Grafik</holiday>
+                <reset>Nulstil ALLE vindue positioner</reset>
+                <resetbtn>Nulstil ALLE positioner</resetbtn>
             </gameplay>
             <hotkeys>
-                <title>Hotkey Bindings</title>
-                <col0>Keyboard Key</col0>
-                <col1>Game Function</col1>
-                <reset0>Reset ALL</reset0>
-                <reset1>Reset to DEFAULTS</reset1>
+                <title>Genvejstaster</title>
+                <col0>Tastatur knap</col0>
+                <col1>Funktion i spillet</col1>
+                <reset0>Nulstil ALLE</reset0>
+                <reset1>Nulstil til STANDARD</reset1>
             </hotkeys>
         </options>
         <mods>
-            <test>Load Test Airport</test>
+            <test>Indlæs test lufthavn</test>
             <steam>
-                <title>Upload &amp; Share on Steam Workshop</title>
-                <name>Name</name>
-                <description>Optional description...</description>
-                <ship>Save &amp; Publish</ship>
-                <success>Success!</success>
-                <fail>Failed!</fail>
-                <downloaded>Downloaded</downloaded>
-                <downloading>Downloading...</downloading>
-                <e_connect>Not connected to Steam.</e_connect>
-                <e_validate>Item title cannot be empty.</e_validate>
-                <e_inprog>Another upload is already in progress.</e_inprog>
-                <e_unknown>Unexpected response in item: {0}</e_unknown>
-                <e_exception>Something went wrong... Please let the devs know!</e_exception>
-                <step0>Preparing...</step0>
-                <step1>Creating save...</step1>
-                <step2>Creating preview...</step2>
-                <step3>Uploading...</step3>
-                <step4>Preparing Config</step4>
-                <step5>Preparing Content</step5>
-                <step6>Uploading Content</step6>
-                <step7>Uploading Preview File</step7>
+                <title>Upload &amp; Del på Steam Workshop</title>
+                <name>Navn</name>
+                <description>Beskrivelse (valgfri)...</description>
+                <ship>Gem &amp; offentliggøre</ship>
+                <success>Succes!</success>
+                <fail>Mislykkedes!</fail>
+                <downloaded>Hentet</downloaded>
+                <downloading>Henter...</downloading>
+                <e_connect>Ikke forbundet med Steam.</e_connect>
+                <e_validate>Titlen må ikke være tom.</e_validate>
+                <e_inprog>En upload er allerede i gang.</e_inprog>
+                <e_unknown>Uforventet svar på: {0}</e_unknown>
+                <e_exception>Noget gik galt :( .... Venligst kontakter udviklerne!</e_exception>
+                <step0>Forbereder...</step0>
+                <step1>Opretter filen...</step1>
+                <step2>Opretter previewen...</step2>
+                <step3>Uploader...</step3>
+                <step4>Forbereder indstillinger</step4>
+                <step5>Forbereder indhold</step5>
+                <step6>Uploader indhold</step6>
+                <step7>Uploader preview filen</step7>
                 <step8>Committing Changes</step8>
-                <step9>Done</step9>
-                <step10>Validating Mod...</step10>
-                <desc0>Please wait while we save your game, upload it to Steam, and Publish it on the SimAirport Workshop!</desc0>
-                <desc1>Your item has been updated.</desc1>
+                <step9>Færdig</step9>
+                <step10>Validerer Mod...</step10>
+                <desc0>Vent venligst mens vi gemmer spillet, uploader det på Steam, og offentliggører den på SimAirport Workshop!</desc0>
+                <desc1>Din indhold er nu opdateret.</desc1>
                 <desc2>Please wait while process &amp; upload your mod to Steam -- and Publish it on the SimAirport Workshop!</desc2>
                 <desc3>Your item is now published to the workshop.</desc3>
                 <tt>
@@ -268,7 +268,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <desc0>You may only update or publish mods that you are the original owner/author of.</desc0>
             </tt0>
             <tt1>
-                
+
                 <desc0>This mod requires other mods (custom Aircraft) to function properly. Those other mods that it requires MUST be uploaded to Steam before this mod can be uploaded.</desc0>
                 <desc1>This mod requires custom art before it can be uploaded to the Steam Workshop.</desc1>
                 <desc2>Mods can only be uploaded to the Steam Workshop if they contain customized art.</desc2>
@@ -456,7 +456,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                     <intro>Set the prices that airlines must pay you. Be careful -- some airlines are more cost-sensitive than other airlines;  airlines may decide not to work with you if your prices are too expensive or your airport services can't justify the costs!</intro>
                     <rwyusage>Runway Usage Income
 How much you charge airlines to use your runways, per usage.</rwyusage>
-                    <terminalusage>Terminal Usage Income 
+                    <terminalusage>Terminal Usage Income
 How much you charge airlines to use your terminal, per passenger.</terminalusage>
                     <btnsave>Save New Prices</btnsave>
                     <btnsaveerror>Recently Edited!  You must wait 12 hours to change again!</btnsaveerror>
@@ -504,7 +504,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                 </runways>
                 <fuel>
                     <title>Fuel Services</title>
-                    
+
                     <!-- left side -->
                     <marketprice>Market Price</marketprice>
                     <recurringlabel>Set Recurring Order</recurringlabel>
@@ -516,7 +516,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <displayhud>Display Fuel Market on HUD?</displayhud>
                     <fuel>Fuel</fuel>
                     <basis>basis</basis>
-                    
+
                     <!-- right side -->
                     <pendingdelivery>Pending Delivery</pendingdelivery>
                     <storagefees>Storage Fees/Day</storagefees>
@@ -537,7 +537,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
                     <desc8>Refueling services will not be offered to airlines.</desc8>
                     <desc9>Fuel will be sold to airlines at a rate proportional to the fluctuating market price. Demand for refueling services will remain relatively stable, but profit margin will fluctuate.</desc9>
                     <desc10>Fuel will be sold to airlines at a specified price, regardless of the current market rate. Demand for refueling services will fluctuate accordingly, but profit margin will remain stable.</desc10>
-                    
+
                     <tt_opstatus>
                         <title>Operational Status</title>
                         <desc1>Fuel resale requirements</desc1>
@@ -597,11 +597,11 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             </tabs>
         </operations>
     </modal>
-    
-    
+
+
     <!-- Tooltips -->
     <navbtntooltip>
-    
+
         <!-- bottom left btns -->
         <build>
             <title>Build</title>
@@ -622,17 +622,17 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <title>Finance Hub</title>
             <subheading>Track Your Cash &amp; Get Bank Loans</subheading>
             <description>Your one-stop-shop for everything finance related!  Review your financial situation, see revenue &amp; expenses information, or to take out a Bank Loan.</description>
-        </finance> 
+        </finance>
         <research>
             <title>Research</title>
             <subheading>Research &amp; Development of Advanced Abilities</subheading>
             <description>Allows you to have your administrators to research new objects and tools, improvements to existing tools, and many other beneficial techs.</description>
-        </research> 
+        </research>
         <operations>
             <title>Operations Control Panel</title>
             <subheading>Detailed Control &amp; Customization</subheading>
             <description>Adjust ground transport options, configure your runways, and manage your airport's fuel services.</description>
-        </operations> 
+        </operations>
         <flight_schedule>
             <title>Flight Management</title>
             <subheading>Flight Contracts &amp; Flight Scheduling</subheading>
@@ -643,7 +643,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <subheading>Real-Time View of Today's Flights</subheading>
             <description>See if the flights coming &amp; going are on-time, their boarding rates, and additional detailed flight status data.</description>
         </flight_status>
-        
+
         <!-- overlay btns -->
         <overlay_SecureAreas>
             <title>Secure Areas</title>
@@ -669,7 +669,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <title>Pax AI Decisions</title>
             <description>See what the Pax AI considered doing by enabling this report &amp; then clicking on any passenger! Note:  this is a debug tool that we're enabling publicly for now, to see if it can help us (and you) to better hone in on AI/selection bugs, and balance tweaks.  Please excuse any rough edges!</description>
         </overlay_paxAI>
-        
+
         <!-- top -->
         <bank>
             <title>Bank Balance</title>
@@ -708,7 +708,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <warning>All runways are currently inactive due to weather. Consider upgrading your runways to increase maximum allowed crosswind tolerances if you already have both vertical and horizontal runways available.</warning>
         </weather>
     </navbtntooltip>
-    
+
     <land>
         <tag>Purchase Land Parcel</tag>
         <desc1>Land Ownership Breakdown</desc1>
@@ -723,19 +723,19 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <desc>During land expansion, the game may crash when writing "land_expansion.airport" and reloading. We strongly recommend saving your game before continuing.</desc>
         </tt2>
     </land>
-    
+
     <vending>
         <tag>Profit/Sale</tag>
         <tt>Applies the current price settings to all of the {0} objects in your airport.</tt>
     </vending>
-    
+
     <hangarmenu>
         <add>Add</add>
         <removed>(deleted)</removed>
         <buy>Buy Vehicle For Slot {0}</buy>
     </hangarmenu>
 
-    
+
     <!-- misc. strings (tooltips, validations, etc) -->
     <strings>
         <PlayTime>Total Playing Time</PlayTime>
@@ -973,7 +973,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <TransitionActive>TransitionActive</TransitionActive>
             <TransitionParked>TransitionParked</TransitionParked>
         </fsm>
-        
+
         <!-- UISelectableObject -->
         <inspect>
             <AssignVehicles>Assign Vehicles...</AssignVehicles>
@@ -992,7 +992,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <Dismantle>Dismantle</Dismantle>
             <TroubleshootPath>Show Non-secure Path</TroubleshootPath>
         </inspect>
-        
+
         <!-- UISelectableObject, ICustomHover -->
         <tooltip>
             <requirements>Requirements Not Met</requirements>
@@ -1109,7 +1109,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <ReqAccessible>Must be accessible, directly or via door</ReqAccessible>
             <ReqEnclosed>Requires enclosed space</ReqEnclosed>
             <MinZoneSize>Minimum Size {0}x{1}</MinZoneSize>
-            
+
             <!-- <OffMap>Out of bounds</OffMap> -->
             <ProximityObject>Too close to nearby object</ProximityObject>
             <ProximityWall>Blocked by nearby Fence or Wall</ProximityWall>
@@ -1139,18 +1139,18 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <QueueRemove>Must remove from the end of 1 queue at a time</QueueRemove>
             <ZoneLimit>Can't create more than {0} {1} Zone</ZoneLimit>
             <AssignmentNA>Flight crews don't need a queue here</AssignmentNA>
-            
+
             <InvalidPlacement>Invalid Placement</InvalidPlacement>
             <computing>Computing...</computing>
             <BadConveyor2>Cannot connect segments like that</BadConveyor2>
             <BadConveyor4>Blocked by existing underground endpoint.</BadConveyor4>
-            
+
             <Conveyor_hub_required>Must pass through a hub</Conveyor_hub_required>
             <Conveyor_h2h>{0} must form a direct connection to exactly 1 other hub</Conveyor_h2h>
             <Conveyor_consumer_limit>Too many consumers. Limit: {0}</Conveyor_consumer_limit>
             <Conveyor_producer_limit>Too many producers. Limit: {0}</Conveyor_producer_limit>
             <Conveyor_mat_wrong>The conveyor type is wrong and cannot be connected that way</Conveyor_mat_wrong>
-            
+
             <IssuesStr>Issues Requiring Attention</IssuesStr>
             <ZoneFull>One or more {0} Zones are full</ZoneFull>
             <ZoneRequirements note="[at least one] [deliveries]">{0} {1} Zone must meet requirements</ZoneRequirements>
@@ -1158,16 +1158,16 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <OneRunwayValidation note="[at least one]">{0} Runway must be functional</OneRunwayValidation>
             <UnscheduledFlightValidation>One or more accepted flights NOT scheduled yet!  Click to schedule them now.</UnscheduledFlightValidation>
             <WorkmenCountValidation>Hire one or more Workman to complete your pending construction projects!</WorkmenCountValidation>
-            
+
             <ReqFoundationAbove>Requires foundation on the floor above</ReqFoundationAbove>
             <ReqFoundationBelow>Requires foundation on the floor below</ReqFoundationBelow>
             <ReqDemolishAbove>Upper floor must be demolished first</ReqDemolishAbove>
-            
+
             <ReqFloorUnderground>Must be under ground</ReqFloorUnderground>
             <ReqFloorAboveGround>Must be above ground</ReqFloorAboveGround>
             <ReqFloorGround>Must be on ground floor</ReqFloorGround>
             <ReqFloorList>Can't draw on this floor. Requires: {0}</ReqFloorList>
-            
+
             <ReqProperAlignment>Must be properly aligned</ReqProperAlignment>
             <ReqGateIdle>Requires gate to be idle first</ReqGateIdle>
         </functionality>
@@ -1179,7 +1179,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         <ZoneObjectValidation>Must contain a {0}</ZoneObjectValidation>
         <HourlyCost>{0} hourly</HourlyCost>
         <HourlyCostPerAgentType>{0} hourly, per {1}</HourlyCostPerAgentType>
-        
+
         <NotableProperties>
             <RequiresNetwork>Requires connection to the utility network</RequiresNetwork>
             <RequiresSecure>Must be placed in a secure area</RequiresSecure>
@@ -1198,8 +1198,8 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
             <NoDestroy>Cannot be destroyed</NoDestroy>
         </NotableProperties>
     </strings>
-    
-        
+
+
     <!-- Zones (enum type) -->
     <zones>
         <None>
@@ -1208,7 +1208,7 @@ How much you charge airlines to use your terminal, per passenger.</terminalusage
         </None>
         <Ticketing>
             <name>Ticketing</name>
-            <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.  
+            <description>The ticketing zone is where passengers will go to print out their boarding passes &amp; check any large luggage that they may have.
 
 One checked bag for free?! Not here.</description>
         </Ticketing>
@@ -1293,7 +1293,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <description>Help with boredom, helps keep your passengers distracted and entertained.</description>
         </Arcade>
     </zones>
-    
+
     <money>
         <reason>
             <BankLoan>Bank Loan</BankLoan>
@@ -1352,7 +1352,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
 		</category>
 		<txs>{0} transactions</txs>
     </money>
-    
+
     <!-- materials (name) -->
     <materials>
         <Asphalt>Asphalt</Asphalt>
@@ -1421,7 +1421,7 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Wood05>Wood05</Wood05>
         <Wood05B>Wood05B</Wood05B>
     </materials>
-    
+
     <!-- planning mode tools basically -->
     <colors>
         <Clear>Clear</Clear>
@@ -1431,8 +1431,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
         <Cyan>Cyan</Cyan>
         <Taxiway>Taxiway</Taxiway>
     </colors>
-    
-    <!-- Terrain Tools (name) --> 
+
+    <!-- Terrain Tools (name) -->
     <tools>
         <TaxiwayDirection>
             <name>Taxiway Direction Tool</name>
@@ -1547,8 +1547,8 @@ Includes all construction supplies, retail inventory, and any other deliveries. 
             <d8>Having trouble? Hover over a Depot or Gate for helpful info.  In underground view click any underground object &amp; connected objects will change color.</d8>
         </Conveyor>
     </tools>
-    
-    
+
+
     <research>
         <Finance>
             <name>Finance</name>
